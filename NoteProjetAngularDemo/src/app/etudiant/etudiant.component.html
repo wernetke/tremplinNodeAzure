@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-12 pad-10">
+    <button type="submit" class="btn btn-primary" (click)="goToAddEtudiant()">
+      <span class="glyphicon glyphicon-floppy-disk"></span> Ajout Etudiant
+    </button>
+  </div>
+</div>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>matricule</th>
+    <th>nom</th>
+    <th>prenom</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let etudiant of etudiants">
+    <td>{{ etudiant.id_etudiant }}</td>
+    <td>{{ etudiant.matricule }}</td>
+    <td>{{ etudiant.nom }}</td>
+    <td>{{ etudiant.prenom}}</td>
+  </tr>
+  </tbody>
+</table>

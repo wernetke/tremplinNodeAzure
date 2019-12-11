@@ -1,0 +1,48 @@
+<div class="form-horizontal pad-10">
+  <br>
+  <form #ajoutEtudiantForm="ngForm">
+    <div class="col-md-6 form-group">
+      <label class=" control-label">Matricule Etudiant</label>
+      <div class="col-md-12 no-padding">
+        <input name="matricule" id="matricule" #matricule="ngModel" [(ngModel)]="etudiants.matricule" class="form-control" placeholder="" type="text" required />
+        <div *ngIf="matricule.errors && (matricule.dirty || matricule.touched)" class="alert alert-danger">
+          <div [hidden]="!matricule.errors.required">
+            Matricule est requis!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 form-group">
+      <label class=" control-label">Nom Etudiant</label>
+      <div class="col-md-12 no-padding">
+        <input name="nom" id="nom" #nom="ngModel" [(ngModel)]="etudiants.nom" class="form-control" placeholder="" type="text" required />
+        <div *ngIf="nom.errors && (nom.dirty || nom.touched)" class="alert alert-danger">
+          <div [hidden]="!nom.errors.required">
+            Nom est requis!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 form-group">
+      <label class=" control-label">Prenom Etudiant</label>
+      <div class="col-md-12 no-padding">
+        <input name="prenom" id="prenom" #prenom="ngModel" [(ngModel)]="etudiants.prenom" class="form-control" placeholder="" type="text" required />
+        <div *ngIf="prenom.errors && (prenom.dirty || prenom.touched)" class="alert alert-danger">
+          <div [hidden]="!prenom.errors.required">
+            Prenom est requis!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pad-10">
+      <button mwlConfirmationPopover
+              [popoverTitle]="'Confirmation'"
+              [popoverMessage]="'êtes-vous sûr?'"
+              placement="top"
+              (confirm)="createEtudiant(etudiants)"
+              type="submit" class="btn btn-save btn-primary" [disabled]="!ajoutEtudiantForm.valid">
+        <span class="glyphicon glyphicon-floppy-disk"></span> Sauvegarder
+      </button>
+    </div>
+  </form>
+</div>
