@@ -5,7 +5,18 @@ router.use(bodyParser.json());
 var Etudiant = require('./Etudiant');
 
 router.get('/', function (req, res) {
-    Etudiant.getetudiants(function(err,rows){
+    Etudiant.getEtudiants(function(err,rows){
+        if(err) {
+            res.status(400).json(err);
+        }
+        else
+        {
+            res.json(rows);
+        }
+    });
+});
+router.get('/note', function (req, res) {
+    Etudiant.getEtudiantsNoted(function(err,rows){
         if(err) {
             res.status(400).json(err);
         }
@@ -16,8 +27,9 @@ router.get('/', function (req, res) {
     });
 });
 
+
 router.post('/', function (req, res) {
-    Etudiant.createetudiant(req.body,function(err,count){
+    Etudiant.createEtudiant(req.body,function(err,count){
         if(err)
         {
             res.status(400).json(err);

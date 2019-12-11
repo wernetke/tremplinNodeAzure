@@ -5,7 +5,7 @@ router.use(bodyParser.json());
 var Matiere = require('./Matiere');
 
 router.get('/', function (req, res) {
-    Matiere.getmatieres(function(err,rows){
+    Matiere.getMatieres(function(err,rows){
         if(err) {
             res.status(400).json(err);
         }
@@ -17,7 +17,7 @@ router.get('/', function (req, res) {
 });
 
 router.post('/', function (req, res) {
-    Matiere.creatematiere(req.body,function(err,count){
+    Matiere.createMatiere(req.body,function(err,count){
         if(err)
         {
             res.status(400).json(err);

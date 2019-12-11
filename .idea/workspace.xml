@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7ed760f-0f69-45e1-9b0a-c233acf6319e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/angular.json" afterDir="false" />
@@ -29,52 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="ajout-etudiant.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Matiere.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matiere/Matiere.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatiereController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatiereController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matiere/MatiereController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajout-matiere.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="48" selection-start-column="48" selection-end-column="48" />
+            <state relative-caret-position="221">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,17 +64,68 @@
       <file leaf-file-name="ajout-matiere.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="527">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="EtudiantController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etudiant/EtudiantController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajout-matiere.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matiere.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajout-etudiant.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Etudiant.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etudiant/Etudiant.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etudiant.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -102,7 +135,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>validation.</find>
+      <find>mat</find>
+      <find>MatiereService</find>
+      <find>ajoutEtudiantForm</find>
+      <find>getetudiants</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NoteProjetAngularDemo" />
@@ -110,26 +150,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/matiere/Matiere.js" />
-        <option value="$PROJECT_DIR$/matiere/MatiereController.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/db.js" />
-        <option value="$PROJECT_DIR$/etudiant/EtudiantController.js" />
         <option value="$PROJECT_DIR$/note/NoteController.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/note/Note.js" />
-        <option value="$PROJECT_DIR$/etudiant/Etudiant.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.interface.ts" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.ts" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.html" />
-        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.html" />
         <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/styles.css" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.component.html" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.component.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.interface.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.service.ts" />
+        <option value="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.html" />
+        <option value="$PROJECT_DIR$/etudiant/EtudiantController.js" />
+        <option value="$PROJECT_DIR$/matiere/Matiere.js" />
+        <option value="$PROJECT_DIR$/matiere/MatiereController.js" />
+        <option value="$PROJECT_DIR$/etudiant/Etudiant.js" />
       </list>
     </option>
   </component>
@@ -143,11 +189,11 @@
     <handled-path value="$PROJECT_DIR$/NoteProjetAngularDemo/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="154" />
-    <option name="y" value="552" />
-    <option name="width" value="974" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
+    <option name="y" value="-153" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,13 +224,33 @@
             <path>
               <item name="NoteProjetNode" type="b2602c69:ProjectViewProjectNode" />
               <item name="NoteProjetNode" type="462c0819:PsiDirectoryNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteProjetAngularDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteProjetNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteProjetNode" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteProjetAngularDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteProjetNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteProjetNode" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteProjetAngularDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteProjetNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteProjetNode" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteProjetAngularDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="etudiant" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,18 +304,19 @@
       <updated>1575553498022</updated>
       <workItem from="1575553499431" duration="2378000" />
       <workItem from="1575555897533" duration="3948000" />
+      <workItem from="1576074149599" duration="3831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6326000" />
+    <option name="totallyTimeSpent" value="10157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-153" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" weight="0.32851636" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32851636" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19704953" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" x="0" y="405" width="1920" height="350" id="Event Log" order="3" sideWeight="0.5005208" side_tool="true" weight="0.32987747" />
@@ -275,6 +343,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matiere/Matiere.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matiere/MatiereController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -352,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etudiant/EtudiantController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/note/NoteController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -370,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="109" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etudiant/Etudiant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -396,9 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -409,78 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -491,34 +523,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matiere/Matiere.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="31" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-matiere/ajout-matiere.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/ajout-etudiant/ajout-etudiant.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etudiant/EtudiantController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matiere/Matiere.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matiere/MatiereController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etudiant/Etudiant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
