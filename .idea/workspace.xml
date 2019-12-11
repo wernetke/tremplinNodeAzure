@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7ed760f-0f69-45e1-9b0a-c233acf6319e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/etudiant/etudiant.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matiere.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/matieres/matieres.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteProjetAngularDemo/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/NoteProjetAngularDemo/tslint.json" afterDir="false" />
-    </list>
+    <list default="true" id="a7ed760f-0f69-45e1-9b0a-c233acf6319e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -304,12 +287,12 @@
       <updated>1575553498022</updated>
       <workItem from="1575553499431" duration="2378000" />
       <workItem from="1575555897533" duration="3948000" />
-      <workItem from="1576074149599" duration="3831000" />
+      <workItem from="1576074149599" duration="4118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10157000" />
+    <option name="totallyTimeSpent" value="10444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-153" width="1936" height="1176" extended-state="7" />
@@ -322,7 +305,7 @@
       <window_info anchor="bottom" x="0" y="405" width="1920" height="350" id="Event Log" order="3" sideWeight="0.5005208" side_tool="true" weight="0.32987747" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32851636" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32851636" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32851636" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49947917" weight="0.32851636" />
       <window_info id="Favorites" order="1" side_tool="true" />
